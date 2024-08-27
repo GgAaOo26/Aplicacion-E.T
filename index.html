@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Encriptador de Texto</h1>
+            <div class="input-area">
+                <textarea id="texto-original" placeholder="Ingresa tu texto aquí"></textarea>
+                <button id="encriptar">Cifrar</button>
+                <button id="desencriptar">Descifrar</button>
+                <div class="mensaje-validacion">
+                    <p>¡Atención! No se aceptan mayúsculas ni caracteres especiales.</p>
+                </div>
+            </div>
+            <div class="output-area">
+                <div class="resultado">
+                    <textarea id="texto-encriptado" readonly placeholder="Texto encriptado"></textarea>
+                    <button id="copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="Muñeco.png" alt="Imagen del encriptador">
+        </div>
+    </div>
+    <footer>
+        <p>Creado por Germán A. Ortiz</p>
+    </footer>
+    <script src="app.js"></script> 
+</body>
+</html>
